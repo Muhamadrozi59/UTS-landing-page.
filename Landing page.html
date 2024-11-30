@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Apotek</title>
+     <link rel="stylesheet" href="Css//Stylees.css">
+</head>
+<body>
+
+<header>
+    <h1>Selamat Datang di Apotek Kimia Farma</h1>
+    <p>Promo dan layanan terbaik hanya untuk Anda!</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Profil Usaha</a></li>
+        <li><a href="#pricing">Harga</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li><a href="#developer">Profil Pengembang</a></li>
+    </ul>
+</nav>
+
+<section class="slider">
+    <img src="imagee/Poto apotek1.jpg" alt="Gambar 1">
+</section>
+
+<section id="about">
+    <h2>Profil Usaha</h2>
+    <img src="imagee/Poto obat1.jpg" alt="Gambar Profil Usaha" style="width: 50%; max-width: 300px;">
+    <p>Apotek Kimia Farma adalah mitra kesehatan terpercaya yang menyediakan produk kesehatan berkualitas tinggi, mulai dari obat-obatan, alat kesehatan, hingga layanan konsultasi medis. Kami berkomitmen untuk mendukung kesehatan masyarakat dengan pelayanan terbaik.</p>
+</section>
+
+<section id="pricing">
+    <h2>Harga Layanan & Produk</h2>
+    <table>
+        <tr>
+            <th>Produk/Layanan</th>
+            <th>Deskripsi</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <td>Biolacta</td>
+            <td>Mendukung penyembuhan dan pemulihan</td>
+            <td>Rp100.000</td>
+        </tr>
+        <tr>
+            <td>Blackmores Fish Oil</td>
+            <td>Suplemen lengkap untuk mendukung imun</td>
+            <td>Rp200.000</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Pesan Sekarang</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Pesanan:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+<section id="login">
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</section>
+<section id="social-icons">
+    <h2>Ikuti Kami di Media Sosial</h2>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100091509577719" target="_blank">
+            <img src="imagee/Facebook-icon.png" alt="Facebook" style="width: 40px;">
+        </a>
+          
+        <a href="https://www.instagram.com/biyao.59?igsh=MThueTl0dWFlaWxudQ==" target="_blank">
+            <img src="imagee/Instagram-icon.png" alt="Instsgram"
+              style="width: 40px;">
+        </a>
+        
+        <a href="https://github.com" target="_blank">
+            <img src="imagee/Github-icon.png" alt="GitHub" style="width: 40px;">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img src="imagee/LinkedIn-icon.png" alt="LinkedIn" style="width: 40px;">
+        </a>
+    </div>
+</section>
+
+<section id="developer">
+    <h2>Profil Pengembang</h2>
+    <p><strong>Nama Pengembang:</strong> Muhamad Rozi</p>
+    <p><strong>Deskripsi Pengembang:</strong> Muhamad Rozi adalah seorang mahasiswa STTNF yang berusaha mencari pengalaman di bidang web development.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Usaha Kami. muhamad rozi.</p>
+</footer>
+
+</body>
+</html>
